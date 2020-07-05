@@ -1121,7 +1121,7 @@ mr = (function (mr, $, window, document){
         mr.util.pauseVideo(modal);
         // If this modal requires to be closed permanently using a cookie, set the cookie now.
         if(typeof modal.attr('data-cookie') !== typeof undefined){
-            mr.cookies.setItem(modal.attr('data-cookie'), "true", Infinity, 'http://www.md3digital.com/');
+            mr.cookies.setItem(modal.attr('data-cookie'), "true", Infinity, 'https://retreatcabincom/');
         }
         modal.removeClass('modal-active');
     };
@@ -1210,7 +1210,7 @@ mr = (function (mr, $, window, document){
         notification.closest('nav').removeClass('notification--reveal');
         // If this notification requires to be closed permanently using a cookie, set the cookie now.
         if(typeof notification.attr('data-cookie') !== typeof undefined){
-            mr.cookies.setItem(notification.attr('data-cookie'), "true", Infinity, 'http://www.md3digital.com/');
+            mr.cookies.setItem(notification.attr('data-cookie'), "true", Infinity, 'https://retreatcabincom/');
         }
     };
     mr.components.documentReady.push(documentReady);
